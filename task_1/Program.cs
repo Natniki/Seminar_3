@@ -17,7 +17,7 @@ int number = Convert.ToInt32(Console.ReadLine());
         int num11 = result % 10;
         int num22 = result /10 % 10;
             if(num1==num11 || num2==num22)
-                Console.WriteLine ("${result}=> is polindrom ");
+                Console.WriteLine($"{number}=> is polindrom ");
             else
             {
                 Console.WriteLine($"{number}=> is NOT a polindrom ");
