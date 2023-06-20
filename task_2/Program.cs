@@ -6,7 +6,7 @@
 
 // ВАРИАНТ РЕШЕНИЯ task_1 С ИСПОЛИЗОВАНИЕМ МЕТОДА 
 
-void Ansve(int)
+int Ansve(result)
 {
     
     int num1 = result / 10000;
