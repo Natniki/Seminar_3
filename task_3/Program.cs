@@ -3,7 +3,15 @@
 //5 -> 1, 8, 27, 64, 125
 
 
-void GetScuare(int number){
+
+
+
+
+
+
+void GetScuare(int number)
+{
+
     for(int i=1;i<=number;i++)
     Console.Write($"{Math.Pow(i,3)}, ");
 }

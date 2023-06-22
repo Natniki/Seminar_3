@@ -6,19 +6,19 @@
 
 // ВАРИАНТ РЕШЕНИЯ task_1 С ИСПОЛИЗОВАНИЕМ МЕТОДА 
 
-int Ansve(result)
+void Ansve(int result)
 {
     
-    int num1 = result / 10000;
-    int num2 = result / 1000 % 10;
-    int num11 = result % 10;
-    int num22 = result /10 % 10;
-        if(num1==num11 || num2==num22)
+    int num1 = result / 1000;
+    int last = result % 10;
+    int last2 = result /10 % 10;
+    int num2 = last*10+last2; 
+        if(num1==num2)
             Console.WriteLine($"{result}=> is polindrom ");
         else
         {
             Console.WriteLine($"{result}=> is NOT a polindrom ");
-         }
+        }
 }
 
 Console.WriteLine("input 5-dig number: ");
